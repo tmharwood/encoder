@@ -1,3 +1,6 @@
+# Author: Tyler Harwood
+# Class: CS361
+# Description: Encoder! This will let the user pick an encoding method and encode plaintext
 
 from tkinter import *
 from tkinter import ttk
@@ -7,6 +10,8 @@ def chng_click():
     chnglog = Tk()
     chnglog.title("Encoder Changelog")
     lbl2 = Label(chnglog, text="7/11/2022: \nCreated the program! Hello World!")
+    lbl3 = Label(chnglog, text="7/23/2022: \nCreated microservice!")
+    lbl3.pack()
     lbl2.pack()
     chnglog.mainloop() 
 
